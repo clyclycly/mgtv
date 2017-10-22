@@ -22,7 +22,7 @@
     <style lang="stylus" rel="stylesheet/stylus">
     </style>
 
-> 项目优点：结构清晰，创建一个新页面只有一分钟
-下次更新：播放页子路由
-> 使用技术：vue + style
-代码风格：eslint
+# 项目优点：结构清晰，创建一个新页面只有一分钟
+# 下次更新：播放页子路由
+# 使用技术：vue + style
+# 代码风格：eslint
