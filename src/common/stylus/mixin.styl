@@ -1,0 +1,47 @@
+// 背景图片
+bg-image($url)
+  background-image: url($url + "@2x.png")
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background-image: url($url + "@3x.png")
+
+// 不换行
+no-wrap()
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+
+// 1px rem也可以
+border-1px($color)
+  position relative
+  &:after
+    content ' '
+    display block
+    position absolute
+    top 0
+    left 0
+    width 100%
+    border-bottom 1px solid $color
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5) //选中dpi比1.5大。(min-device-pixel-ratio: 1.5)不是webkit的时候
+  .border-1px
+    &:after
+      -webkit-transform scaleY(0.7)
+      transform scaleY(0.7)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) //选中dpi比2大。(min-device-pixel-ratio: 1.5)不是webkit的时候
+  .border-1px
+    &:after
+      -webkit-transform scaleY(0.5)
+      transform scaleY(0.5)
+
+// 扩展点击区域
+extend-click()
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    top: -10px
+    left: -10px
+    right: -10px
+    bottom: -10px
+
