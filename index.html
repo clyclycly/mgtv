@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>芒果tv</title>
+  <script>
+    var html = document.getElementsByTagName("html")[0];
+    var hehe = function() {
+      var winClient = document.documentElement.clientWidth;
+      var fontSize = winClient < 640 ? winClient / 16 : 40;
+      if (fontSize < 20) {
+        fontSize = 20;
+      }
+      html.style.fontSize = fontSize + "px";
+    };
+    hehe();
+    window.onresize = function() {
+      hehe();
+    };
+  </script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
