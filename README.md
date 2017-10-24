@@ -2,8 +2,6 @@
 * 安装node
 * npm install
 * npm run dev
-
-* 项目优点：完全模块化创建一个新页面只需要一分钟
 * 代码风格：eslint
 
 ## 例：创建新页（如电视剧）
