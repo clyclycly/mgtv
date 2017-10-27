@@ -35,12 +35,11 @@ npm run build
 4. 关于难点，对于自己来说，audio标签以前没有接触过，有点麻烦，不过还算有[相关文档](http://caibaojian.com/html5-audio.html)
 5. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
 
-## 创建新的活动页
+## 创建新的活动页（# 如添加home页）
 1.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)里注册你的活动页
 
 ``` bash
 
-# 如添加home页
 import Home from 'components/home/home'
    {
      path: '/home',
@@ -48,22 +47,16 @@ import Home from 'components/home/home'
    }
    
 ``` 
-2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)添加一个router-link导航
+2.[点击查看]里(https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)添加一个router-link导航
 
 ``` bash
-
-# 如添加home页
-
-     <router-link class="tab-item" to="/home"><!--tag="div"后在手机百度app看不字-->
+      <router-link class="tab-item" to="/home"><!--tag="div"后在手机百度app看不字-->
         <span class="tab-link">精选</span>
-      </router-link>
-   
+     </router-link>
 ``` 
-2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/demo/demo.vue)传入id就可以生成新的一页
+3.[点击查看]里(https://github.com/clyclycly/mgtv/blob/master/src/components/demo/demo.vue)传入id就可以生成新的一页
 
 ``` bash
-
-#   <item :id="143"></item>就会生成home页
-
+<item :id="143"></item>就会生成home页
 ``` 
 
