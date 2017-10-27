@@ -45,7 +45,7 @@ import Home from 'components/home/home'
    }
    
 ``` 
-2.[点击查看]里(https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)里添加一个router-link导航
+2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)里添加一个router-link导航
 ``` bash
       <router-link class="tab-item" to="/home"><!--tag="div"后在手机百度app看不字-->
         <span class="tab-link">精选</span>
