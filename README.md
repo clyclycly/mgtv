@@ -19,7 +19,7 @@ npm run build
 
 ``` 
 ## 技术栈
- + vue2：基础框架
+ + vue2.0：基础框架
  + vue-router2：路由跳转
  + vuex：全局数据管理
  + es6：采用部分es6特性，大大简化了写法
