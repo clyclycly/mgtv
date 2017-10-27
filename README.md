@@ -36,7 +36,3 @@ npm run build
 5. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
 
 ## 部分截图
-![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlyxi2mrj20ad0icn43.jpg)![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlz0lmr2j20ac0idmzv.jpg)
-![](http://wx2.sinaimg.cn/large/7b9a6229ly1fhwlz4rv98j20ac0ic78c.jpg)![](http://wx1.sinaimg.cn/mw690/7b9a6229ly1fhwlz76gf8j20ac0idq4u.jpg)
-![](http://wx1.sinaimg.cn/mw690/7b9a6229ly1fhwlzckmt6j20ac0idtdf.jpg)![](http://wx2.sinaimg.cn/mw690/7b9a6229ly1fhwlzevul9j20ac0ic76k.jpg)
-![](http://wx3.sinaimg.cn/mw690/7b9a6229ly1fhwlzgb1uvj20ad0id0tp.jpg)![](http://wx1.sinaimg.cn/mw690/7b9a6229ly1fhwlzlcu5ej20ac0idq6w.jpg)
