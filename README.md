@@ -36,14 +36,16 @@ npm run build
 5. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
 
 ## 创建新的活动页
-1.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)里注册你的活动页
+1.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)里注册你的活动页
 ``` bash
-如
+
+# 如添加home页
 import Home from 'components/home/home'
    {
-      path: '/home',
-      component: Home
-    }
+     path: '/home',
+     component: Home
+   }
+   
 ``` 
 2.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)添加一个router-link导航
 3.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)传出活动页的id就可以生成新的一页
