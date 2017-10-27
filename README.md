@@ -37,6 +37,7 @@ npm run build
 
 ## 创建新的活动页
 1.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)里注册你的活动页
+
 ``` bash
 
 # 如添加home页
@@ -47,6 +48,22 @@ import Home from 'components/home/home'
    }
    
 ``` 
-2.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)添加一个router-link导航
-3.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)传出活动页的id就可以生成新的一页
+2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)添加一个router-link导航
+
+``` bash
+
+# 如添加home页
+
+     <router-link class="tab-item" to="/home"><!--tag="div"后在手机百度app看不字-->
+        <span class="tab-link">精选</span>
+      </router-link>
+   
+``` 
+2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/demo/demo.vue)传入id就可以生成新的一页
+
+``` bash
+
+#   <item :id="143"></item>就会生成home页
+
+``` 
 
