@@ -35,4 +35,16 @@ npm run build
 4. 关于难点，对于自己来说，audio标签以前没有接触过，有点麻烦，不过还算有[相关文档](http://caibaojian.com/html5-audio.html)
 5. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
 
-## 部分截图
+## 创建新的活动页
+1.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)里注册你的活动页
+``` bash
+如
+import Home from 'components/home/home'
+   {
+      path: '/home',
+      component: Home
+    }
+``` 
+2.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)添加一个router-link导航
+3.(https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)传出活动页的id就可以生成新的一页
+
