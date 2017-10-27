@@ -1,4 +1,4 @@
-## vue版芒果TV
+## Vue版芒果TV
 
 > api api是通过axios绕过接口限制拿到的真实数据
 
