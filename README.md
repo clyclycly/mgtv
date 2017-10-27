@@ -17,6 +17,7 @@ npm run dev
 # 构建生产环境
 npm run build
 
+``` 
 ## 技术栈
  + vue2：基础框架
  + vue-router2：路由跳转
@@ -28,7 +29,7 @@ npm run build
  + flex：弹性布局，在移动端兼容性较好，写各种布局非常方便
  
  ## 说明
-1. 这个项目大小组件大概二十几个，目前还未完工，以后还会继续更新，目标是还原整个芒果TV（虽然不知道什么时候能填完坑o(╯□╰)o）。
+1. 这个项目大小组件大概三十几个，目前还未完工，以后还会继续更新，目标是还原整个芒果TV（虽然不知道什么时候能填完坑o(╯□╰)o）。
 2. 关于路由，刚开始设计路由的时候想了很多，由于一开始的目标就是芒果TV的所有内容，所以设计了三级路由，/root/index/recommed，大概这样，[点击查看](https://github.com/tgxhx/vue-music/blob/e43c4975e42b93b6ccf5d8609687879a589d4d8f/src/router/index.js)。
 3. 关于体会，写到这个项目也算是对vue全家桶比较熟了，体会就是，不论是简单的复杂的项目，只要分割成一个个组件再拼起来，也没什么难的，组件之间通信又有vuex，也是非常简单的，总之就是熟能生巧。
 4. 关于难点，对于自己来说，audio标签以前没有接触过，有点麻烦，不过还算有[相关文档](http://caibaojian.com/html5-audio.html)music/blob/771218f2929de6b64a34c62597777a4fc0b6ed6e/src/components/Player.vue)；
