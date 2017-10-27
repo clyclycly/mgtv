@@ -32,10 +32,8 @@ npm run build
 1. 这个项目大小组件大概三十几个，目前还未完工，以后还会继续更新，目标是还原整个芒果TV（虽然不知道什么时候能填完坑o(╯□╰)o）。
 2. 关于路由，刚开始设计路由的时候想了很多，由于一开始的目标就是芒果TV的所有内容，所以设计了三级路由，/root/index/recommed，大概这样，[点击查看](https://github.com/tgxhx/vue-music/blob/e43c4975e42b93b6ccf5d8609687879a589d4d8f/src/router/index.js)。
 3. 关于体会，写到这个项目也算是对vue全家桶比较熟了，体会就是，不论是简单的复杂的项目，只要分割成一个个组件再拼起来，也没什么难的，组件之间通信又有vuex，也是非常简单的，总之就是熟能生巧。
-4. 关于难点，对于自己来说，audio标签以前没有接触过，有点麻烦，不过还算有[相关文档](http://caibaojian.com/html5-audio.html)music/blob/771218f2929de6b64a34c62597777a4fc0b6ed6e/src/components/Player.vue)；
-5. 关于打包后的资源路径，比如要放在二级目录www.xxx.com/music，那么修改config/index.js中的assetsPublicPath: '/music/'即可。
-6. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
-
+4. 关于难点，对于自己来说，audio标签以前没有接触过，有点麻烦，不过还算有[相关文档](http://caibaojian.com/html5-audio.html)
+5. 关于移动设备适配，我使用的是js动态设置html元素font-size的方式，页面元素使用rem，这样可达到在不同设备下显示内容基本一样的效果
 
 ## 部分截图
 ![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlyxi2mrj20ad0icn43.jpg)![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlz0lmr2j20ac0idmzv.jpg)
