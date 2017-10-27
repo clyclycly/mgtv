@@ -1,12 +1,10 @@
-## mgtv
-* 安装node
-* npm install
-* npm run dev
-* 代码风格：eslint
+## vue版芒果tv
+* api api是通过axios绕过接口限制拿到的真实数据
 
-## 例：创建新页（如电视剧）
-* 找到src/router/index.js注册你的路由
-* 找到src/components/mg-tab添加一个router-link
+## 使用步骤
+* 下载 
+  gtt clone https://github.com/clyclycly/mgtv
+* 
 * 组件结构如下，传入不同id为不同路由
 #
     <template>
