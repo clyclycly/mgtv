@@ -19,7 +19,7 @@ npm run build
 
 ``` 
 ## 截图
-![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)![]
+![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
 
 ## 技术栈
  + vue2.0：基础框架
