@@ -19,6 +19,9 @@ npm run build
 
 ``` 
 ## 截图
+![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlyxi2mrj20ad0icn43.jpg)![](http://wx4.sinaimg.cn/large/7b9a6229ly1fhwlz0lmr2j20ac0idmzv.jpg)
+![](http://wx2.sinaimg.cn/large/7b9a6229ly1fhwlz4rv98j20ac0ic78c.jpg)![]
+![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)![]
 
 ## 技术栈
  + vue2.0：基础框架
