@@ -18,6 +18,8 @@ npm run dev
 npm run build
 
 ``` 
+## 截图
+
 ## 技术栈
  + vue2.0：基础框架
  + vue-router2：路由跳转
@@ -47,7 +49,7 @@ import Home from 'components/home/home'
 ``` 
 2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)里添加一个router-link导航
 ``` bash
-      <router-link class="tab-item" to="/home"><!--tag="div"后在手机百度app看不字-->
+      <router-link class="tab-item" to="/home">
         <span class="tab-link">精选</span>
      </router-link>
 ``` 
