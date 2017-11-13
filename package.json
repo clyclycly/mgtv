@@ -18,13 +18,7 @@
     "babel-runtime": "^6.0.0",
     "fastclick": "^1.0.6",
     "axios": "^0.16.1",
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
     "vuex": "^2.3.1",
->>>>>>> cly
->>>>>>> cly
     "better-scroll": "^0.1.15"
   },
   "devDependencies": {
