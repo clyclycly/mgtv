@@ -1,12 +1,4 @@
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
 ## Vue版芒果TV
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-## Vue版芒果TV
-=======
-﻿## Vue版芒果TV
->>>>>>> cly
->>>>>>> cly
 
 > api api是通过axios绕过接口限制拿到的真实数据
 
@@ -25,20 +17,9 @@ npm run dev
 # 构建生产环境
 npm run build
 
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-``` 
-## 截图
-![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-``` 
-## 截图
-![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
-=======
 ```
-## 演示![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
->>>>>>> cly
->>>>>>> cly
+## 截图
+![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
 
 ## 技术栈
  + vue2.0：基础框架
@@ -49,15 +30,7 @@ npm run build
  + axios：基于Promise的http库，用来请求数据
  + style：写起css来十分方便，需要安装style-loader，另外使用自定义其中的自定义函数配合rem来适配移动端设备简直不要太方便
  + flex：弹性布局，在移动端兼容性较好，写各种布局非常方便
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
- 
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
- 
-=======
 
->>>>>>> cly
->>>>>>> cly
  ## 说明
 1. 这个项目大小组件大概三十几个，目前还未完工，以后还会继续更新，目标是还原整个芒果TV（虽然不知道什么时候能填完坑o(╯□╰)o）。
 2. 关于路由，刚开始设计路由的时候想了很多，由于一开始的目标就是芒果TV的所有内容，所以设计了多级路由，大概这样，[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/router/index.js)。
@@ -73,40 +46,15 @@ import Home from 'components/home/home'
      path: '/home',
      component: Home
    }
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-   
-``` 
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-   
-``` 
-=======
 
 ```
->>>>>>> cly
->>>>>>> cly
 2.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/mg-tab/mg-tab.vue)里添加一个router-link导航
 ``` bash
       <router-link class="tab-item" to="/home">
         <span class="tab-link">精选</span>
      </router-link>
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
->>>>>>> cly
-``` 
-3.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/demo/demo.vue)里传入id就可以生成新的一页
-``` bash
-<item :id="143"></item>就会生成home页
-``` 
-
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-=======
 ```
 3.[点击查看](https://github.com/clyclycly/mgtv/blob/master/src/components/demo/demo.vue)里传入id就可以生成新的一页
 ``` bash
 <item :id="143"></item>就会生成home页
 ```
->>>>>>> cly
->>>>>>> cly
