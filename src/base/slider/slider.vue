@@ -55,13 +55,7 @@
         }
         this.againImg = dispose
       }
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
 
->>>>>>> cly
->>>>>>> cly
       /* 图片轮播 */
       let length = this.againImg.length
       this.againImg[0].indexes = 1  // 不需要进来等3秒

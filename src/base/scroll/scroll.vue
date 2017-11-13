@@ -24,23 +24,9 @@
       }
     },
     created() {
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
->>>>>>> cly
-      this.$nextTick(() => { /* $nextTick 是在下次 DOM 更新循环结束之后执行延迟回调 */
-        this.$nextTick(() => {
-          this.Scroll()
-        })
-      })
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-=======
       setTimeout(() => {
         this.Scroll()
       }, 20)
->>>>>>> cly
->>>>>>> cly
     },
     methods: {
       Scroll() {

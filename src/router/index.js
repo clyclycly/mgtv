@@ -1,11 +1,5 @@
 import Vue from 'vue'
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
 import VueRouter from 'vue-router'
->>>>>>> cly
->>>>>>> cly
 import Home from 'components/home/home'
 import Tv from 'components/tv/tv'
 import Show from 'components/show/show'
@@ -14,16 +8,8 @@ import Doc from 'components/doc/doc'
 import Child from 'components/child/child'
 import Edu from 'components/edu/edu'
 import News from 'components/news/news'
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-import VueRouter from 'vue-router'
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-import VueRouter from 'vue-router'
-=======
 import PlayDetail from 'components/play-detail/play-detail'
 import B from 'components/b/b'
->>>>>>> cly
->>>>>>> cly
 
 Vue.use(VueRouter)
 
@@ -64,10 +50,6 @@ export default new VueRouter({
     {
       path: '/tv',
       component: Tv
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
-<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
-=======
     },
     {
       path: '/b',
@@ -78,8 +60,6 @@ export default new VueRouter({
           component: PlayDetail
         }
       ]
->>>>>>> cly
->>>>>>> cly
     }
   ]
 })
