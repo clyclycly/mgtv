@@ -1,4 +1,4 @@
-## Vue版芒果TV
+﻿## Vue版芒果TV
 
 > api api是通过axios绕过接口限制拿到的真实数据
 
@@ -18,7 +18,7 @@ npm run dev
 npm run build
 
 ``` 
-## 截图
+## aa
 ![](https://github.com/clyclycly/mgtv/blob/master/mgtv.gif)
 
 ## 技术栈
