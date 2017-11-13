@@ -41,6 +41,27 @@ apiRoutes.get('/DiscList', function (req, res) {
   })
 })
 
+<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
+=======
+<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
+=======
+apiRoutes.get('/playList', function (req, res) {
+  var url = 'https://v5m.api.mgtv.com/remaster/vrs/getVideoListByPartId'
+  axios.get(url, {
+    headers: {
+      referer: 'https://m.mgtv.com/',
+      host: 'v5m.api.mgtv.com'
+    },
+    params: req.query
+  }).then((response) => {
+    res.json(response.data)
+  }).catch((e) => {
+    console.log(e)
+  })
+})
+
+>>>>>>> cly
+>>>>>>> cly
 app.use('/api', apiRoutes)
 
 const compiler = webpack(webpackConfig)

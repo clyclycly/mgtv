@@ -5,7 +5,14 @@
       <router-view class="content-wrapper">
       </router-view>
     </keep-alive>
+<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
     <mg-bottom></mg-bottom>
+=======
+<<<<<<< eeb5b85106dfcc449a6a767f272da33f2a13e32b
+    <mg-bottom></mg-bottom>
+=======
+>>>>>>> cly
+>>>>>>> cly
   </div>
 </template>
 
