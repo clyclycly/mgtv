@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li v-for="{(item,$index) in msg">
+      <li v-for="(item,$index) in msg">
         <component :is="moduleStyle($index)" :rMsg="msg[$index]" v-if="msg[$index]"></component>
       </li>
     </ul>
