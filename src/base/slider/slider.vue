@@ -3,7 +3,7 @@
     <div class="again-wrapper">
       <div id="body" ref="wrapper" class="again">
         <ul>
-          <li class="again-item" :class="{mack:againImg[$index].indexes===1}" v-for="{(again,$index) in againImg">
+          <li class="again-item" :class="{mack:againImg[$index].indexes===1}" v-for="(again,$index) in againImg">
             <img class="again-img" :src="againImg[$index].img" alt="">
             <span class="again-text">{{againImg[$index].text}}</span>
           </li>
